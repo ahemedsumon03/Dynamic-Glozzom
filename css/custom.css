@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.slick-dots {
+    top: 90%;
+}
+.slick-slide{
+    height: 450px;
+}
+
+.sliderImg{
+    width: 100% !important;
+    height:450px;
+}
+
+.formField{
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.cardHead{
+    cursor: pointer;
+}
+.BetweenTwoSection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.detailsImage{
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.para1{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}

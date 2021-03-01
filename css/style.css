@@ -1,0 +1,127 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../public/img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../public/img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../public/img/image3.jpeg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#homestart {
+  position: relative;
+  background: url("../public/img/image4.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  
+  #homestart .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#Homevideo {
+  position: relative;
+  background: url("../public/img/image5.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #Homevideo .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #Homevideo .dark-overlay .fa {
+      font-size: 50px;
+      color: red; }
+
+#galary img {
+  height: 250px; }
+
+#copyright {
+  background: #000; }
+
+#about-home {
+  background: url("../public/img/image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+#about-text img {
+  height: 350px;
+  width: 350px; }
+
+#icon-box .fa {
+  font-size: 50px;
+  margin-bottom: 15px; }
+
+#testimonial .slick-prev:before, #testimonial .slick-next:before {
+  color: #000; }
+
+#service-header {
+  background: url("../public/img/image7.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+#blog {
+  background: url("../public/img/image5.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+#contact {
+  background: url("../public/img/image9.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+@media (max-width: 550px) {
+  img {
+    margin-bottom: 0px; } }
+
+@media (max-width: 767px) {
+  img {
+    width: 500px; } }
+
+@media (max-width: 570px) {
+  #info img {
+    margin-top: 10px; } }
+
+@media (max-width: 480px) {
+  #homestart {
+    min-height: 500px; } }
+
+@media (max-width: 360px) {
+  #homestart {
+    min-height: 420px; } }
+
+@media (max-width: 767px) {
+  .carousel-caption h3 {
+    font-size: 2.70rem; } }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0em !important; } }
